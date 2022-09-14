@@ -2,13 +2,19 @@
 
 /**
  * _abs - a function that computes the absolute value of an integer.
- * @int: parameter
+ * @c: parameter
  *
  * Return: 0
  **/
 
-int _abs(int n)
+int _abs(int c)
 {
-	_putchar(n + '0');
-	return (0);
+	if (c >= 0)
+	{
+	return (c);
+	}
+	else
+	{
+	return (c * -1);
+	}
 }
