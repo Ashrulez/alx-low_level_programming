@@ -41,7 +41,8 @@ int main(void)
 		}
 		else
 		{
-			printf("%d ", num);
+			printf("%d", num);
+			printf(" ");
 		}
 	}
 	printf("\n");
