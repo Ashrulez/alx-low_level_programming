@@ -20,7 +20,7 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 
-	for (index == 0 ; str[index] ; index++)
+	for (index = 0 ; str[index] ; index++)
 	{
 		len++;
 	}
