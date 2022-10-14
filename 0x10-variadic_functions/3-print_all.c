@@ -24,6 +24,7 @@ void print_c(va_list c)
 void print_s(va_list s)
 {
 	char *str = va_arg(s, char *);
+
 	if (str == NULL)
 		str = "(nil)";
 	printf("%s", str);
@@ -72,7 +73,7 @@ void print_all(const char * const format, ...)
 	};
 	va_list valist;
 	char *separator = "";
-	
+
 	va_start(valist, format);
 	i = 0;
 	while (format && format[i])
